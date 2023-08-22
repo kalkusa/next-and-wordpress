@@ -1,3 +1,9 @@
-export default function Page() {
-  return <main>Hello world</main>;
+import Header from "./header/header";
+
+export default async function Page() {
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
