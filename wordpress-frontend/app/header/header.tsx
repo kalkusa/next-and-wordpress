@@ -9,7 +9,7 @@ export default async function Header() {
         <ul>
           {pageList.map((page) => (
             <li key={page.id}>
-              <a href={page.link}>{page.title.rendered}</a>
+              <a href={page.link.replace(`${process.env.WORDPRESS_URL}`, "")}>{page.title.rendered}</a>
             </li>
           ))}
         </ul>
