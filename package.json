@@ -1,0 +1,18 @@
+{
+  "name": "next-and-wordpress",
+  "version": "1.0.0",
+  "description": "Experiment with combining headless WordPress with Next.js as frontend",
+  "scripts": {
+    "start": "docker-compose up -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalkusa/next-and-wordpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalkusa/next-and-wordpress/issues"
+  },
+  "homepage": "https://github.com/kalkusa/next-and-wordpress#readme"
+}
