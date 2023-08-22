@@ -1,4 +1,4 @@
-import { getPageList } from "@/src/getPageList";
+import { getPageList } from "@/src/types/getPageList";
 import "./header.css";
 
 export default async function Header() {
